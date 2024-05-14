@@ -1,0 +1,9 @@
+{{#each tarjetas}}
+<div class="col">
+  <div class="card">
+    <h5 class="card-title mx-3 my-3">{{this}}</h5>
+    <img src="{{this}}.png" alt="{{this}}">
+    <button type="button" class="btn btn-success btn-agregar" data-image="{{this}}.png">Agregar</button>
+  </div>
+</div>
+{{/each}}
